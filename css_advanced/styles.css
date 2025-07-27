@@ -98,3 +98,136 @@ nav a {
   font-size: 18px;
   color: #888;
 }
+.videos-list {
+  padding: 60px 20px;
+  background-color: #fafafa; /* Or the color from Figma */
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.videos-list h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.videos-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 300px; /* adjust to match Figma */
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.video-item:hover {
+  transform: translateY(-10px);
+}
+
+.video-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.video-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.video-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.membership {
+  padding: 60px 20px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.membership-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.card p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ff6565; /* Accent color from Figma */
+}
+
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #555;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #ff6565;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card.basic {
+  /* Optional: Different styling for basic card */
+}
+
+.card.premium {
+  /* Optional: Different styling for premium card */
+}
+
+.card.pro {
+  /* Optional: Different styling for pro card */
+}
