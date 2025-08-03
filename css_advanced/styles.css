@@ -231,3 +231,116 @@ nav a {
 .card.pro {
   /* Optional: Different styling for pro card */
 }
+
+.faq {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  text-align: left;
+}
+
+.faq h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #222;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0;
+  cursor: pointer;
+  color: #333;
+  position: relative;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.faq-question[aria-expanded="true"]::after {
+  content: '-';
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: #555;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 40px 20px 20px;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1 1 250px;
+}
+
+.footer h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #888;
+}
