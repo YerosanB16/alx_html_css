@@ -1,0 +1,81 @@
+
+*{
+  color: white;
+  padding: 0;
+  margin: 0;
+   font-family: Arial;
+}
+body{
+  background-image: url(img/headphones_hero_1.jpg);
+  /* display: flex; justify-content: center; flex-direction: column; align-items: center; */
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    margin: 0;
+  padding: 0;
+  height: 100vh;
+   
+}
+main{
+  display: flex; justify-content: center; align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+}
+li {
+  margin-right: 40px;
+  font-size: 12px;
+  list-style: none;
+  
+}
+li a{
+    text-decoration: none;
+}
+div img{
+  width: 30px;
+  
+}
+.logtitle{
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.headphones{
+  margin: 10px;
+}
+.maindiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  width: 650px;
+  text-align: center;
+  padding-top: 100px;
+ ,
+}
+button{
+  background-color: brown;
+  border: none;
+  padding: 15px 25px;
+  
+  border-radius: 50px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.bobo{
+  font-size: 16px;
+  
+}
+h1{
+  font-size: 23px;
+  font-weight: 100;
+  font-style: normal;
+}
